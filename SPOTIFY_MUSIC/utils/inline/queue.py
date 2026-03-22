@@ -100,7 +100,7 @@ def aq_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
-            InlineKeyboardButton(text="skip", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="Skip", callback_data=f"ADMIN Skip|{chat_id}"),
         ],
     ]
     return buttons
